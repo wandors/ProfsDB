@@ -45,67 +45,55 @@ namespace ProfsDB
     [Serializable]
     class Vidoma : People
     {
-        //Резонанс в ЗМІ
+       
     }
     [Serializable]
     class Wor : People
     {
-        //Авторитет
     }
     [Serializable]
     class Zlodiy : People
     {
-        //Злодій в законі
     }
     [Serializable]
     class Kiler : People
     {
-        //Вбивство на замловлення ст.115 ч 2 п.п. 6,11,12
     }
 
     [Serializable]
     class Band : People
     {
-        //Бандитизм ст.257
     }
     [Serializable]
     class PrNacB : People
     {
-        //Посягання на територіальну цілісність і недоторканність України ст. 110 
     }
     [Serializable]
     class Separ : People
     {
-        //Створення не передбачених законом воєнізованих або збройних формувань ст.260 ч.2
     }
     [Serializable]
     class Naric : People
     {
-        //Наркоділок з міжрегіональними звязками ст.305
     }
     [Serializable]
     class Shahr : People
     {
-        //Шахрайство ст.190 ч.4
     }
     [Serializable]
     class LOZG : People
     {
-        //Лідер ОЗГ стт.255
     }
     [Serializable]
     class Slujba : People
     {
-        //Службові злочини ст. 191 ч. 5
     }
     [Serializable]
     class Habar : People
     {
-        //Одержання хабара cn 368 ч. 3,4
     }
     [Serializable]
     class Zvlada : People
     {
-        //Зловживання владою або службовим становищем ст. 364 ч.3
     }
 }
