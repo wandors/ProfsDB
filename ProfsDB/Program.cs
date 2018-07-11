@@ -7,9 +7,9 @@ namespace ProfsDB
         static void Main(string[] args)
         {
             string path = @"D://t.dat";
-            string soname = "Полунец";
-            string name = "Сергій";
-            string fatger = "Васильович";
+            string soname = "Фамилияц";
+            string name = "Имя";
+            string fatger = "По-отчеству";
             Console.WriteLine("Введи номер обліку ");
             string _prob = Console.ReadLine();
             Int32.TryParse(_prob, out int _inpb);
