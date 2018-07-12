@@ -9,7 +9,7 @@ namespace ProfsDB
         private UserPrefs arrp;
         private object userP;
         private UserPrefs userPrefsd;
-        private static readonly string[] oblic = new string[] { "Авторитет", "Кілер", "Бандитизм" };
+        private static readonly string[] oblic = new string[] { "Авторитет", "Кілер", "Бандитизм","ШфхрайствоЄ" };
         //private Vidoma vidomas = new Vidoma();
         //private Zlodiy zlodiys = new Zlodiy();
         private readonly Wor vors = new Wor();
