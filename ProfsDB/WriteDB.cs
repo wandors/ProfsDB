@@ -10,12 +10,11 @@ namespace ProfsDB
         private object userP;
         private UserPrefs userPrefsd;
         private static readonly string[] oblic = new string[] { "Авторитет", "Кілер","Наркоділки з міжрегіональними зв'язками", "Бандитизм","ШфхрайствоЄ" };
-        //private Vidoma vidomas = new Vidoma();
-        //private Zlodiy zlodiys = new Zlodiy();
+        private Vidoma vidomas = new Vidoma();
+        private Zlodiy zlodiys = new Zlodiy();
         private readonly Wor vors = new Wor();
         private readonly Kiler kils = new Kiler();
         private readonly Band band = new Band();
-        /*
         private PrNacB prnarcs = new PrNacB();
         private Separ separs = new Separ();
         private Naric narics = new Naric();
@@ -27,11 +26,9 @@ namespace ProfsDB
         
         private Dictionary<string, object> _vidomas = new Dictionary<string, object>();
         private Dictionary<string, object> _zlodiys = new Dictionary<string, object>();
-        */
         private Dictionary<string, object> _wors = new Dictionary<string, object>();
         private Dictionary<string, object> _kils = new Dictionary<string, object>();
-        private Dictionary<string, object> _band = new Dictionary<string, object>();
-        /*
+        private Dictionary<string, object> _band = new Dictionary<string, object>();        
         private Dictionary<string, object> _prnacs = new Dictionary<string, object>();
         private Dictionary<string, object> _separs = new Dictionary<string, object>();
         private Dictionary<string, object> _narics = new Dictionary<string, object>();
@@ -40,7 +37,7 @@ namespace ProfsDB
         private Dictionary<string, object> _sljbas = new Dictionary<string, object>();
         private Dictionary<string, object> _habars = new Dictionary<string, object>();
         private Dictionary<string, object> _zvladas = new Dictionary<string, object>();
-        */
+
         public void Work(string soname, string name, string fatger, int _inpb, string path)
         {
             //Добавити масив облікі
