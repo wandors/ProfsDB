@@ -23,6 +23,7 @@ namespace ProfsDB
         public string KiStr { get; set; }
         public string ImageP { get; set; }
         public string Vids { get; set; }
+        public string Otr { get; set; }
     }
     [Serializable]
     public class UserPrefs
